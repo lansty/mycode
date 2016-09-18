@@ -25,7 +25,7 @@ typedef struct
 void GreatGraph(Graph *G)
 {
 	
-	cout<<"ÇëÊäÈë¶¥µã¸öÊıºÍ±ßµÄÌõÊı£º";
+	cout<<"è¯·è¾“å…¥é¡¶ç‚¹ä¸ªæ•°å’Œè¾¹çš„æ¡æ•°ï¼š";
 	cin>>G->numVexs>>G->numEdges;
 	for(int i = 0;i < G->numVexs;i++)
 	{
@@ -36,7 +36,7 @@ void GreatGraph(Graph *G)
 	for(int k = 0;k < G->numEdges;k++)
 	{
 		int i ,j;
-		cout<<"ÇëÊäÈë£¨vi,vj)¶ÔÓ¦µÄÏÂ±êºÅ£º";
+		cout<<"è¯·è¾“å…¥ï¼ˆvi,vj)å¯¹åº”çš„ä¸‹æ ‡å·ï¼š";
 		cin>>i>>j;
 		EdgeNode *p  = new EdgeNode;
 		p->adjvex = j;
@@ -121,7 +121,7 @@ int main()
 {
 	Graph G;
 	GreatGraph(&G);
-	create_dfs(&G);//¸ù¾İÊäÈëË³ĞòµÄ²»Í¬£¬±éÀúµÄ½á¹ûÒ²²»Ò»Ñù£¡ 
+	create_dfs(&G);//æ ¹æ®è¾“å…¥é¡ºåºçš„ä¸åŒï¼Œéå†çš„ç»“æœä¹Ÿä¸ä¸€æ ·ï¼ 
 	cout<<endl<<"---------------------------------------------"<<endl; 
 	BFSTraverse(&G);
 	return 0;	
