@@ -1,0 +1,8 @@
+在线编程网站（各种语言，以及linux环境，sql环境）
+http://www.tutorialspoint.com/codingground.htm 
+linux手册网址
+http://man.linuxde.net/
+操作系统自行学习网站
+http://c.biancheng.net/cpp/u/xitong/
+编程语言学习网站（很好用）
+http://c.biancheng.net/cpp/
